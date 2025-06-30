@@ -417,6 +417,182 @@
         "name": "flyFly1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_Smile_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_Smile_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_Smile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_Smile_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_Smile_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_Smile_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_Smile_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_Smile_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_Smile_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_Smile_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Kid5_Smile_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Kid5_Smile_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Fae_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Fae_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Fae_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Fae_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Fae_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Fae_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Fae_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Fae_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Dream_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Dream_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Dream_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Dream_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Dream_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Dream_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Dream_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Dream_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Dream_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Dream_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Dream_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Dream_6.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -448,7 +624,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.47893418845353175,
+        "zoomFactor": 0.2636457673770843,
         "windowMask": false
       },
       "objectsGroups": [
@@ -502,13 +678,14 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 196,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
-          "width": 0,
+          "width": 196,
           "x": 608,
           "y": 328,
           "zOrder": 1,
@@ -750,15 +927,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 196,
           "keepRatio": true,
           "layer": "",
           "name": "Kid",
           "persistentUuid": "3545f6b2-0bd4-44e8-88d1-4fc7e5876810",
-          "width": 0,
-          "x": -397,
-          "y": 485,
+          "width": 196,
+          "x": -465,
+          "y": 406,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -766,13 +944,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Dream",
           "persistentUuid": "faae6114-8a28-4dc2-92d4-41d951802803",
-          "width": 0,
+          "width": 96,
           "x": 590,
           "y": 184,
           "zOrder": 7,
@@ -864,13 +1043,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Dream",
           "persistentUuid": "bc2a4d46-0475-46bf-b23b-ace5e81dacb6",
-          "width": 0,
+          "width": 96,
           "x": -265,
           "y": -190,
           "zOrder": 10,
@@ -896,15 +1076,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 196,
           "keepRatio": true,
           "layer": "",
           "name": "Kid",
           "persistentUuid": "68e760c6-9c8e-4ba9-b8cd-c10479771d06",
-          "width": 0,
-          "x": 1771,
-          "y": 1093,
+          "width": 196,
+          "x": 1698,
+          "y": 987,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -934,13 +1115,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Dream",
           "persistentUuid": "44734c6d-113e-4839-84a2-f41808e170cd",
-          "width": 0,
+          "width": 96,
           "x": 1124,
           "y": -254,
           "zOrder": 10,
@@ -1613,15 +1795,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 196,
           "keepRatio": true,
           "layer": "",
           "name": "Kid",
           "persistentUuid": "5691aaa1-2ae0-4edd-beee-1807f03c42a1",
-          "width": 0,
-          "x": 160,
-          "y": 538,
+          "width": 196,
+          "x": 90,
+          "y": 626,
           "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
@@ -1862,29 +2045,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "Foreground",
-          "name": "puppygrim",
-          "persistentUuid": "5cbb13a8-cb7f-4b39-b001-80a6fe36eb24",
-          "width": 103,
-          "x": 317,
-          "y": 147,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Dream",
           "persistentUuid": "845dadcd-34a0-4bf7-8904-9d84ede4aa58",
-          "width": 0,
+          "width": 96,
           "x": 999,
           "y": 200,
           "zOrder": 69,
@@ -1894,13 +2061,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Dream",
           "persistentUuid": "6e2db8c9-58c1-4010-bf2a-57491ffc7a56",
-          "width": 0,
+          "width": 96,
           "x": 375,
           "y": 550,
           "zOrder": 70,
@@ -2075,6 +2243,7 @@
             },
             {
               "name": "TopDownMovement",
+              "rotateObject": true,
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "ignoreDefaultControls": true,
               "angularMaxSpeed": 300,
@@ -2085,7 +2254,6 @@
               "angleOffset": 0,
               "customIsometryAngle": 30,
               "movementAngleOffset": 0,
-              "rotateObject": true,
               "viewpoint": "TopDown"
             },
             {
@@ -2103,12 +2271,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\StartingPlayer.png",
+                      "image": "Pixie_Assets\\Fae_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2124,20 +2292,128 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
-                            "y": 2
+                            "x": 251.5,
+                            "y": 219.5
                           },
                           {
-                            "x": 62,
-                            "y": 2
+                            "x": 764,
+                            "y": 224
                           },
                           {
-                            "x": 62,
-                            "y": 62
+                            "x": 764,
+                            "y": 736.5
                           },
                           {
-                            "x": 2,
-                            "y": 62
+                            "x": 262,
+                            "y": 736.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Fae_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 251.5,
+                            "y": 219.5
+                          },
+                          {
+                            "x": 764,
+                            "y": 224
+                          },
+                          {
+                            "x": 764,
+                            "y": 736.5
+                          },
+                          {
+                            "x": 262,
+                            "y": 736.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Fae_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 251.5,
+                            "y": 219.5
+                          },
+                          {
+                            "x": 764,
+                            "y": 224
+                          },
+                          {
+                            "x": 764,
+                            "y": 736.5
+                          },
+                          {
+                            "x": 262,
+                            "y": 736.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Fae_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 251.5,
+                            "y": 219.5
+                          },
+                          {
+                            "x": 764,
+                            "y": 224
+                          },
+                          {
+                            "x": 764,
+                            "y": 736.5
+                          },
+                          {
+                            "x": 262,
+                            "y": 736.5
                           }
                         ]
                       ]
@@ -2388,12 +2664,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "fishPink.png",
+                      "image": "Pixie_Assets\\Kid5_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2409,20 +2685,200 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 1
+                            "x": 384,
+                            "y": 288
                           },
                           {
-                            "x": 60,
-                            "y": 1
+                            "x": 608,
+                            "y": 288
                           },
                           {
-                            "x": 60,
-                            "y": 45
+                            "x": 608,
+                            "y": 800
                           },
                           {
-                            "x": 0,
-                            "y": 45
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
                           }
                         ]
                       ]
@@ -2436,12 +2892,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "fishGreen.png",
+                      "image": "Pixie_Assets\\Kid5_Smile_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2457,20 +2913,200 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 1
+                            "x": 384,
+                            "y": 288
                           },
                           {
-                            "x": 60,
-                            "y": 1
+                            "x": 608,
+                            "y": 288
                           },
                           {
-                            "x": 60,
-                            "y": 45
+                            "x": 608,
+                            "y": 800
                           },
                           {
-                            "x": 0,
-                            "y": 45
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_Smile_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_Smile_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_Smile_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_Smile_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Kid5_Smile_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 384,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 288
+                          },
+                          {
+                            "x": 608,
+                            "y": 800
+                          },
+                          {
+                            "x": 384,
+                            "y": 800
                           }
                         ]
                       ]
@@ -2507,12 +3143,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spinnerHalf_hit.png",
+                      "image": "Pixie_Assets\\Dream_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2528,20 +3164,200 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 128,
+                            "y": 128
                           },
                           {
-                            "x": 61,
-                            "y": 0
+                            "x": 896,
+                            "y": 128
                           },
                           {
-                            "x": 61,
-                            "y": 30
+                            "x": 896,
+                            "y": 864
                           },
                           {
-                            "x": 0,
-                            "y": 30
+                            "x": 128,
+                            "y": 864
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Dream_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 864
+                          },
+                          {
+                            "x": 128,
+                            "y": 864
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Dream_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 864
+                          },
+                          {
+                            "x": 128,
+                            "y": 864
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Dream_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 864
+                          },
+                          {
+                            "x": 128,
+                            "y": 864
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Dream_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 864
+                          },
+                          {
+                            "x": 128,
+                            "y": 864
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Pixie_Assets\\Dream_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 128
+                          },
+                          {
+                            "x": 896,
+                            "y": 864
+                          },
+                          {
+                            "x": 128,
+                            "y": 864
                           }
                         ]
                       ]
