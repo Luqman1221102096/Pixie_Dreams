@@ -624,7 +624,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2636457673770843,
+        "zoomFactor": 0.4481978045410431,
         "windowMask": false
       },
       "objectsGroups": [
@@ -686,8 +686,8 @@
           "name": "Player",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 196,
-          "x": 608,
-          "y": 328,
+          "x": 541,
+          "y": 357,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2103,9 +2103,43 @@
           "name": "Big_Grim",
           "persistentUuid": "43e42325-05b9-461c-b815-5b3e67c86a35",
           "width": 124,
-          "x": 963,
-          "y": 137,
+          "x": 951,
+          "y": 139,
           "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 154,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Big_Grim",
+          "persistentUuid": "8ec64211-426d-4c89-af22-d29bd734408c",
+          "width": 122,
+          "x": 477,
+          "y": -48,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Dream",
+          "persistentUuid": "984413f4-63a0-4ac4-90a2-a1cf2bd60a9f",
+          "width": 96,
+          "x": 477,
+          "y": -19,
+          "zOrder": 75,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2243,8 +2277,8 @@
             },
             {
               "name": "TopDownMovement",
-              "rotateObject": true,
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "rotateObject": true,
               "ignoreDefaultControls": true,
               "angularMaxSpeed": 300,
               "acceleration": 700,
@@ -2280,8 +2314,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 32,
-                        "y": 32
+                        "x": 512,
+                        "y": 512
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2316,8 +2350,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 32,
-                        "y": 32
+                        "x": 512,
+                        "y": 512
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2352,8 +2386,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 32,
-                        "y": 32
+                        "x": 512,
+                        "y": 512
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2388,8 +2422,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 32,
-                        "y": 32
+                        "x": 512,
+                        "y": 512
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2571,6 +2605,16 @@
               "name": "SleepSpotY",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Type",
+              "type": "string",
+              "value": "Grim"
             }
           ],
           "effects": [],
@@ -4152,21 +4196,6 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "Awake",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "name": "DreamID",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "HasDream",
-              "type": "boolean",
-              "value": false
-            },
-            {
               "name": "Sleeping",
               "type": "boolean",
               "value": true
@@ -4190,6 +4219,16 @@
               "name": "SleepSpotX",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Type",
+              "type": "string",
+              "value": "Grim"
             }
           ],
           "effects": [],
@@ -4308,6 +4347,16 @@
               "name": "SleepSpotX",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Type",
+              "type": "string",
+              "value": "Grim"
             }
           ],
           "effects": [],
@@ -4582,6 +4631,17 @@
                 "PixieDustEnergy",
                 "=",
                 "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Type",
+                "=",
+                "Grims.ObjectName()"
               ]
             }
           ],
@@ -6352,6 +6412,64 @@
             },
             {
               "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Health",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Health",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Grims",
+                "PixieBomb",
+                "",
+                "",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Health",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -6836,6 +6954,17 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Health",
+                "=",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -6877,6 +7006,35 @@
                     "Grims.X()",
                     "=",
                     "Grims.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Grims",
+                    "Type",
+                    "=",
+                    "\"Big_Grim\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Grims",
+                    "Health",
+                    "=",
+                    "3"
                   ]
                 }
               ]
@@ -7604,50 +7762,21 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Big_Grim",
-                "Awake",
-                "True",
+                "shadowTravelgrim",
+                "Sleeping",
+                "=",
                 ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "Big_Grim",
-                "Player",
-                "50",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"DashTimer\"",
-                ">=",
-                "2"
               ]
             },
             {
               "type": {
-                "value": "BooleanObjectVariable"
+                "value": "CompareObjectTimer"
               },
               "parameters": [
                 "shadowTravelgrim",
-                "Awake",
-                "True",
-                ""
+                " \"DashTimer\"",
+                ">=",
+                "2"
               ]
             }
           ],
@@ -7663,13 +7792,14 @@
             },
             {
               "type": {
-                "value": "AddForceVers"
+                "value": "MettreXY"
               },
               "parameters": [
                 "shadowTravelgrim",
-                "Player",
-                "500",
-                ""
+                "=",
+                "shadowTravelgrim.X() + 100",
+                "=",
+                "shadowTravelgrim.Y() + 100"
               ]
             }
           ]
@@ -7694,6 +7824,34 @@
               "parameters": [
                 "shadowTravelgrim",
                 " \"DashTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Big_Grim",
+                "Health",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Big_Grim",
+                "Pathfinding",
+                "=",
+                "75"
               ]
             }
           ]
@@ -8487,6 +8645,73 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Level1",
+      "name": "Level1",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
