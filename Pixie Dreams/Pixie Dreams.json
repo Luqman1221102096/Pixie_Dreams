@@ -624,7 +624,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4481978045410431,
+        "zoomFactor": 0.7876290101673887,
         "windowMask": false
       },
       "objectsGroups": [
@@ -639,6 +639,9 @@
             },
             {
               "name": "shadowTravelgrim"
+            },
+            {
+              "name": "puppygrim"
             }
           ]
         }
@@ -4094,6 +4097,49 @@
               "name": "HasDream",
               "type": "boolean",
               "value": true
+            },
+            {
+              "name": "Sleeping",
+              "persistentUuid": "8030da56-94ca-4e71-8c43-a42a360c590b",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "name": "Stun",
+              "persistentUuid": "9e6625d0-f6bf-4d3d-b1a5-dc8ad39e3d98",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "id",
+              "persistentUuid": "186a41cb-d19b-43a7-902c-4c3873d399d9",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "SleepSpotX",
+              "persistentUuid": "42b92648-e5c6-455d-8886-3690d8e15366",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "SleepSpotY",
+              "persistentUuid": "07505273-0721-4bf6-a34f-3cf513893a01",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "hasMixedValues": true,
+              "name": "Health",
+              "persistentUuid": "b08fd1ae-3743-42cd-b5e7-eb662d6dbef2",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Type",
+              "persistentUuid": "8c56e8a8-afe9-4717-bcd6-c93904b93c59",
+              "type": "string",
+              "value": "Grim"
             }
           ],
           "effects": [
@@ -7729,6 +7775,17 @@
                 "Player.X()",
                 "Player.Y()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Dream",
+                "Resizable",
+                "96",
+                "96"
               ]
             },
             {
