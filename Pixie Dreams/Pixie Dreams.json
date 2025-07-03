@@ -656,6 +656,118 @@
         "name": "boxAlt.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Big_Grim_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Big_Grim_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Big_Grim_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Big_Grim_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Big_Grim_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Big_Grim_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Big_Grim_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Big_Grim_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Puppy_Grim_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Puppy_Grim_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Puppy_Grim_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Puppy_Grim_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Puppy_Grim_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Puppy_Grim_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Grim_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Grim_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Grim_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Grim_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Grim_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Grim_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Grim_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Grim_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Teleport_Grim_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Teleport_Grim_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Teleport_Grim_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Teleport_Grim_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Teleport_Grim_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Teleport_Grim_3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1051,17 +1163,17 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bat.png",
+                  "image": "Pixie_Assets\\Grim_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 35,
-                    "y": 35
+                    "x": 512,
+                    "y": 512
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1072,20 +1184,128 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 31.5,
+                        "y": 140
                       },
                       {
-                        "x": 70,
-                        "y": 0
+                        "x": 976,
+                        "y": 140
                       },
                       {
-                        "x": 70,
-                        "y": 47
+                        "x": 978.5,
+                        "y": 850
                       },
                       {
-                        "x": 0,
-                        "y": 47
+                        "x": 38,
+                        "y": 853
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Grim_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 31.5,
+                        "y": 140
+                      },
+                      {
+                        "x": 976,
+                        "y": 140
+                      },
+                      {
+                        "x": 978.5,
+                        "y": 850
+                      },
+                      {
+                        "x": 38,
+                        "y": 853
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Grim_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 31.5,
+                        "y": 140
+                      },
+                      {
+                        "x": 976,
+                        "y": 140
+                      },
+                      {
+                        "x": 978.5,
+                        "y": 850
+                      },
+                      {
+                        "x": 38,
+                        "y": 853
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Grim_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 31.5,
+                        "y": 140
+                      },
+                      {
+                        "x": 976,
+                        "y": 140
+                      },
+                      {
+                        "x": 978.5,
+                        "y": 850
+                      },
+                      {
+                        "x": 38,
+                        "y": 853
                       }
                     ]
                   ]
@@ -1197,17 +1417,17 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "enamyy1-removebg-preview (1).png",
+                  "image": "Pixie_Assets\\Puppy_Grim_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 250,
-                    "y": 250
+                    "x": 512,
+                    "y": 512
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1218,20 +1438,92 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 84,
-                        "y": 79
+                        "x": 288,
+                        "y": 96
                       },
                       {
-                        "x": 417,
-                        "y": 79
+                        "x": 736,
+                        "y": 96
                       },
                       {
-                        "x": 417,
-                        "y": 416
+                        "x": 736,
+                        "y": 928
                       },
                       {
-                        "x": 84,
-                        "y": 416
+                        "x": 288,
+                        "y": 928
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Puppy_Grim_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 288,
+                        "y": 96
+                      },
+                      {
+                        "x": 736,
+                        "y": 96
+                      },
+                      {
+                        "x": 736,
+                        "y": 928
+                      },
+                      {
+                        "x": 288,
+                        "y": 928
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Puppy_Grim_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 288,
+                        "y": 96
+                      },
+                      {
+                        "x": 736,
+                        "y": 96
+                      },
+                      {
+                        "x": 736,
+                        "y": 928
+                      },
+                      {
+                        "x": 288,
+                        "y": 928
                       }
                     ]
                   ]
@@ -1315,17 +1607,17 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "enamy_2-removebg-preview.png",
+                  "image": "Pixie_Assets\\Big_Grim_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 100.5,
-                    "y": 100.5
+                    "x": 512,
+                    "y": 512
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1336,20 +1628,128 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 1
+                        "x": 48,
+                        "y": 144
                       },
                       {
-                        "x": 181,
-                        "y": 1
+                        "x": 976,
+                        "y": 144
                       },
                       {
-                        "x": 181,
-                        "y": 248
+                        "x": 976,
+                        "y": 848
                       },
                       {
-                        "x": 13,
-                        "y": 248
+                        "x": 48,
+                        "y": 848
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Big_Grim_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 848
+                      },
+                      {
+                        "x": 48,
+                        "y": 848
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Big_Grim_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 848
+                      },
+                      {
+                        "x": 48,
+                        "y": 848
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Big_Grim_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 848
+                      },
+                      {
+                        "x": 48,
+                        "y": 848
                       }
                     ]
                   ]
@@ -1438,17 +1838,17 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "333enaammm-removebg-preview.png",
+                  "image": "Pixie_Assets\\Teleport_Grim_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 512,
+                    "y": 512
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1459,20 +1859,92 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 22
+                        "x": 96,
+                        "y": 80
                       },
                       {
-                        "x": 220,
-                        "y": 22
+                        "x": 992,
+                        "y": 80
                       },
                       {
-                        "x": 220,
-                        "y": 199
+                        "x": 992,
+                        "y": 944
                       },
                       {
-                        "x": 0,
-                        "y": 199
+                        "x": 96,
+                        "y": 944
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Teleport_Grim_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 80
+                      },
+                      {
+                        "x": 992,
+                        "y": 80
+                      },
+                      {
+                        "x": 992,
+                        "y": 944
+                      },
+                      {
+                        "x": 96,
+                        "y": 944
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Teleport_Grim_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 96,
+                        "y": 80
+                      },
+                      {
+                        "x": 992,
+                        "y": 80
+                      },
+                      {
+                        "x": 992,
+                        "y": 944
+                      },
+                      {
+                        "x": 96,
+                        "y": 944
                       }
                     ]
                   ]
@@ -5257,7 +5729,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23089183385225615,
+        "zoomFactor": 0.1770859527754446,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5578,13 +6050,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Grim",
           "persistentUuid": "ecfaf733-aea5-4d8c-9f17-524349d57975",
-          "width": 0,
+          "width": 96,
           "x": 4357,
           "y": 290,
           "zOrder": 12,
@@ -12324,7 +12797,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.17130934511242532,
+        "zoomFactor": 0.18923010380623626,
         "windowMask": false
       },
       "objectsGroups": [
@@ -12629,13 +13102,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Grim",
           "persistentUuid": "ecfaf733-aea5-4d8c-9f17-524349d57975",
-          "width": 0,
+          "width": 96,
           "x": 90,
           "y": -2161,
           "zOrder": 12,
@@ -13741,13 +14215,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Grim",
           "persistentUuid": "a2acb8f9-c6a8-45cb-85f3-7dc030f74f8b",
-          "width": 0,
+          "width": 96,
           "x": 1291,
           "y": 146,
           "zOrder": 151,
@@ -19235,7 +19710,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.202207073036029,
+        "zoomFactor": 0.13138826996360325,
         "windowMask": false
       },
       "objectsGroups": [
@@ -19821,15 +20296,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1.0775862068965516,
-          "height": 270.4741379310345,
+          "depth": 0,
+          "height": 192,
           "keepRatio": true,
           "layer": "",
           "name": "Big_Grim",
           "persistentUuid": "965183f5-693e-4694-81c1-6968847aff2b",
-          "width": 250,
-          "x": -625,
-          "y": -3881,
+          "width": 192,
+          "x": -607,
+          "y": -3887,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -20239,13 +20714,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Grim",
           "persistentUuid": "72841ebb-6e4d-4cc3-a666-7c15cfbb4698",
-          "width": 0,
+          "width": 96,
           "x": 4218,
           "y": -584,
           "zOrder": 109,
@@ -20272,13 +20748,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Grim",
           "persistentUuid": "0868ab55-5660-4e67-b43e-1969fd7e6dc5",
-          "width": 0,
+          "width": 96,
           "x": 4172,
           "y": -1833,
           "zOrder": 109,
@@ -26900,7 +27377,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.12295621310786463,
+        "zoomFactor": 0.1451328644553433,
         "windowMask": false
       },
       "objectsGroups": [
@@ -26989,8 +27466,8 @@
           "name": "Player",
           "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
           "width": 196,
-          "x": 1876,
-          "y": -4260,
+          "x": -826,
+          "y": -4170,
           "zOrder": 1000,
           "numberProperties": [],
           "stringProperties": [],
@@ -28164,13 +28641,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Grim",
           "persistentUuid": "e55417f6-ec2d-4206-bcac-68f17c7c114f",
-          "width": 0,
+          "width": 96,
           "x": -3794,
           "y": -3325,
           "zOrder": 108,
@@ -28197,13 +28675,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 192,
           "keepRatio": true,
           "layer": "",
           "name": "Big_Grim",
           "persistentUuid": "893162a6-7d83-47a6-95da-375cf949e2b6",
-          "width": 0,
+          "width": 192,
           "x": 807,
           "y": -1130,
           "zOrder": 109,
@@ -28230,13 +28709,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Grim",
           "persistentUuid": "29e84ea5-9e6c-4e71-bcb0-369d2677a95a",
-          "width": 0,
+          "width": 96,
           "x": 2178,
           "y": -4251,
           "zOrder": 111,
@@ -28473,12 +28953,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 100,
+          "height": 192,
           "keepRatio": true,
           "layer": "",
           "name": "shadowTravelgrim",
           "persistentUuid": "952212b5-3729-48d7-9da8-b82dc530645d",
-          "width": 100,
+          "width": 192,
           "x": -203,
           "y": -4348,
           "zOrder": 122,
@@ -35111,7 +35591,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.127102337199279,
+        "zoomFactor": 0.15508574551594376,
         "windowMask": false
       },
       "objectsGroups": [
@@ -36097,13 +36577,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 192,
           "keepRatio": true,
           "layer": "",
           "name": "Big_Grim",
           "persistentUuid": "3ac69f35-7710-4ed2-98cc-4ff2d24e5a28",
-          "width": 0,
+          "width": 192,
           "x": -1785,
           "y": 4191,
           "zOrder": 1009,
@@ -36285,12 +36766,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 96,
+          "height": 192,
           "keepRatio": true,
           "layer": "",
           "name": "shadowTravelgrim",
           "persistentUuid": "b1be6803-f5fd-4d70-9050-bca11f26ef49",
-          "width": 96,
+          "width": 192,
           "x": 2678,
           "y": 1714,
           "zOrder": 1011,
@@ -36436,13 +36917,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Grim",
           "persistentUuid": "f9f3238c-c736-42e8-bc98-8d81a8ac2a02",
-          "width": 0,
+          "width": 96,
           "x": 4178,
           "y": 5030,
           "zOrder": 112,
@@ -36637,13 +37119,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Grim",
           "persistentUuid": "1e64af27-acfd-4de4-acb4-d3ea73c00d50",
-          "width": 0,
+          "width": 96,
           "x": 2738,
           "y": 3588,
           "zOrder": 112,
@@ -37861,13 +38344,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Grim",
           "persistentUuid": "441f0a4c-9b19-480d-9653-bccf2a21be20",
-          "width": 0,
+          "width": 96,
           "x": -1874,
           "y": 1760,
           "zOrder": 1084,
@@ -43308,7 +43792,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488293,
+        "zoomFactor": 0.35534345588170474,
         "windowMask": false
       },
       "objectsGroups": [
@@ -43713,13 +44197,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 99,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Grim",
           "persistentUuid": "ecfaf733-aea5-4d8c-9f17-524349d57975",
-          "width": 0,
+          "width": 99,
           "x": 548,
           "y": 203,
           "zOrder": 12,
@@ -43752,13 +44237,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Grim",
           "persistentUuid": "7f2341ee-a768-473f-af5f-e6e39c6e9246",
-          "width": 0,
+          "width": 96,
           "x": -233,
           "y": -160,
           "zOrder": 14,
@@ -43785,13 +44271,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Grim",
           "persistentUuid": "ab88eb50-27a3-4f47-adfc-3526aa6d80bc",
-          "width": 0,
+          "width": 96,
           "x": 1154,
           "y": -224,
           "zOrder": 16,
@@ -44771,13 +45258,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 84,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "shadowTravelgrim",
           "persistentUuid": "03370b53-f5ce-40fe-a77c-370f078c291e",
-          "width": 72,
+          "width": 96,
           "x": 316,
           "y": 501,
           "zOrder": 71,
@@ -44788,13 +45275,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 150,
+          "depth": 0,
+          "height": 192,
           "keepRatio": true,
           "layer": "Foreground",
           "name": "Big_Grim",
           "persistentUuid": "43e42325-05b9-461c-b815-5b3e67c86a35",
-          "width": 124,
+          "width": 192,
           "x": 1014,
           "y": 139,
           "zOrder": 72,
@@ -44805,13 +45292,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 154,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "Big_Grim",
           "persistentUuid": "8ec64211-426d-4c89-af22-d29bd734408c",
-          "width": 122,
+          "width": 96,
           "x": 437,
           "y": -82,
           "zOrder": 74,
@@ -44839,13 +45326,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 105,
+          "depth": 0,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "puppygrim",
           "persistentUuid": "a3c5329c-aac2-4275-922f-5f328f1a5c99",
-          "width": 116,
+          "width": 96,
           "x": 1246,
           "y": 629,
           "zOrder": 76,
