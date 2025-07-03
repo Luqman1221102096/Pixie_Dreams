@@ -1,0 +1,1017 @@
+{
+  "b": 138,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Level_32Select_32Scene",
+  "name": "Level Select Scene",
+  "r": 126,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 185,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 128,
+    "gridHeight": 128,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.5117784035210179,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 101,
+      "layer": "",
+      "name": "Level1_Button",
+      "persistentUuid": "4e89b0b5-4a2b-412c-a742-c9fe841ba619",
+      "width": 270,
+      "x": 114,
+      "y": 128,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 101,
+      "layer": "",
+      "name": "Level2_Button",
+      "persistentUuid": "5db37f65-d251-4bd2-bff9-ff9e0bed4a09",
+      "width": 270,
+      "x": 498,
+      "y": 128,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 101,
+      "layer": "",
+      "name": "Level3_Button",
+      "persistentUuid": "410cb563-8054-4063-89ca-06e773378b40",
+      "width": 270,
+      "x": 896,
+      "y": 128,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 101,
+      "layer": "",
+      "name": "Level4_Button",
+      "persistentUuid": "d975e2f0-9eb4-42c3-b7ad-b82c17f61cd3",
+      "width": 270,
+      "x": 114,
+      "y": 283,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 101,
+      "layer": "",
+      "name": "Level5_Button",
+      "persistentUuid": "70c055f9-76e1-4c9d-aea3-54c8e0598682",
+      "width": 270,
+      "x": 498,
+      "y": 283,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Back_Button",
+      "persistentUuid": "6b12b2db-41bd-4302-b6e0-56d82dc25a5b",
+      "width": 0,
+      "x": 960,
+      "y": 576,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+      "name": "Level1_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Level 1",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Level 1",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+      "name": "Level5_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Level 5",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Level 5",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+      "name": "Level4_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Level 4",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Level 4",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+      "name": "Level3_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Level 3",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Level 3",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+      "name": "Level2_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Level 2",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Level 2",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+      "name": "Back_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Hovered.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Idle.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Return",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Return",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Level1_Button"
+      },
+      {
+        "objectName": "Level2_Button"
+      },
+      {
+        "objectName": "Level3_Button"
+      },
+      {
+        "objectName": "Level4_Button"
+      },
+      {
+        "objectName": "Level5_Button"
+      },
+      {
+        "objectName": "Back_Button"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Back_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu Scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Level1_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CurrentSceneIndexCount",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentScene",
+            "=",
+            "Active_Scene_List[CurrentSceneIndexCount]"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Intro\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Level2_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CurrentSceneIndexCount",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentScene",
+            "=",
+            "Active_Scene_List[CurrentSceneIndexCount]"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level2\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Level3_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CurrentSceneIndexCount",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentScene",
+            "=",
+            "Active_Scene_List[CurrentSceneIndexCount]"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level3\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Level4_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CurrentSceneIndexCount",
+            "=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentScene",
+            "=",
+            "Active_Scene_List[CurrentSceneIndexCount]"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level4\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Level5_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CurrentSceneIndexCount",
+            "=",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentScene",
+            "=",
+            "Active_Scene_List[CurrentSceneIndexCount]"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level5\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "TopDownMultitouchMapper",
+      "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}

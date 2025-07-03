@@ -1,0 +1,7113 @@
+{
+  "b": 31,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Level1",
+  "name": "Level1",
+  "r": 31,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 31,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 64,
+    "gridHeight": 64,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.16572117247527368,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Grims",
+      "objects": [
+        {
+          "name": "Grim"
+        },
+        {
+          "name": "Big_Grim"
+        },
+        {
+          "name": "shadowTravelgrim"
+        },
+        {
+          "name": "puppygrim"
+        }
+      ]
+    },
+    {
+      "name": "TextBox",
+      "objects": [
+        {
+          "name": "TexBox"
+        },
+        {
+          "name": "TutorialPixie"
+        },
+        {
+          "name": "StoryText"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "PreviousX",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "PreviousY",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "DreamsToSave",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "DeleteDreams",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "MaxTime",
+      "type": "number",
+      "value": 60
+    },
+    {
+      "name": "NumOfGrimID",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "awake",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "DashUnlocks",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 196,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
+      "width": 196,
+      "x": -1039,
+      "y": 419,
+      "zOrder": 1000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "1ef6f774-a666-42ab-bcc0-4ecdb8656e6a",
+      "width": 0,
+      "x": 1307,
+      "y": 54,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "726d874b-fb5d-4e42-82f6-c3d2ab5aefbd",
+      "width": 0,
+      "x": 896,
+      "y": 640,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 530,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "22bf0d32-275e-4e74-b120-bfa34be62474",
+      "width": 128,
+      "x": -265,
+      "y": 329,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "6dabd131-ae06-40b2-930f-50d1e7026310",
+      "width": 0,
+      "x": 342,
+      "y": -8,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "4a78f239-4eba-4792-a457-8b997763e8eb",
+      "width": 0,
+      "x": 220,
+      "y": -38,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "e8b8a032-ae32-41b2-9468-0aad5f3d0e6c",
+      "width": 0,
+      "x": 282,
+      "y": -19,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "cb56c589-3dec-471f-9f78-46c50bc95adc",
+      "width": 0,
+      "x": 281,
+      "y": 183,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "b18f0870-688b-448d-a660-b6012462631f",
+      "width": 0,
+      "x": 107,
+      "y": -8,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "c7ce716c-4fa4-4a66-9ec8-e0fd2a3937c4",
+      "width": 975,
+      "x": -1117,
+      "y": 56,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 0,
+      "height": 196,
+      "keepRatio": true,
+      "layer": "Foreground",
+      "name": "Kid",
+      "persistentUuid": "3545f6b2-0bd4-44e8-88d1-4fc7e5876810",
+      "width": 196,
+      "x": -1140,
+      "y": 436,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Foreground",
+      "name": "Dream",
+      "persistentUuid": "faae6114-8a28-4dc2-92d4-41d951802803",
+      "width": 96,
+      "x": 4336,
+      "y": 297,
+      "zOrder": 7,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PixieEnergy",
+      "persistentUuid": "4aa1e555-b8eb-4031-85ec-6c4fcad94cc3",
+      "width": 0,
+      "x": 43,
+      "y": 41,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "DreamNumText",
+      "persistentUuid": "4ecaaa79-f048-4f9f-ad9d-985b9fdb41c4",
+      "width": 0,
+      "x": 47,
+      "y": 95,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "Foreground",
+      "name": "Grim",
+      "persistentUuid": "ecfaf733-aea5-4d8c-9f17-524349d57975",
+      "width": 96,
+      "x": 4357,
+      "y": 290,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 911,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "04c3bcf2-11cf-425a-b396-b9ee89aaaa12",
+      "width": 4677,
+      "x": -141,
+      "y": -46,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 547,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "4b72e431-4be7-4e59-9eb0-48024c52c4b8",
+      "width": 114,
+      "x": -1222,
+      "y": 56,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "192ab512-c9d3-4ec4-84c8-97da0bfc4036",
+      "width": 985,
+      "x": -1223,
+      "y": 598,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "59ee949d-9bf2-472d-a2a9-5414ba00e137",
+      "width": 0,
+      "x": -79,
+      "y": 25,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "c196c9cb-297f-4859-bbcf-611846fe2244",
+      "width": 0,
+      "x": -31,
+      "y": -18,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 49,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "8b2cf6dd-f017-478c-af3c-e4ed27040902",
+      "width": 4088,
+      "x": 396,
+      "y": -47,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "20143f6a-5b9b-4438-b860-9933c8b220ba",
+      "width": 4811,
+      "x": -264,
+      "y": 803,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 375,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "6737a065-11be-42ac-a5a1-bdd56dadd599",
+      "width": 62,
+      "x": 273,
+      "y": 441,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "f020baa6-75e6-42f3-93ad-216ed4c9d2b6",
+      "width": 0,
+      "x": 1343,
+      "y": 630,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "1b9dbc44-db0e-48b8-bad1-5a3845548181",
+      "width": 0,
+      "x": 914,
+      "y": 379,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "e0d06346-6805-421d-ae24-4b328aaeb2be",
+      "width": 0,
+      "x": 169,
+      "y": -7,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "e5ba8e11-79a1-4e10-b464-a3f333bc533a",
+      "width": 0,
+      "x": 40,
+      "y": -7,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "3bc04dcf-42c2-43f2-b058-d89dc94e0a9f",
+      "width": 0,
+      "x": -143,
+      "y": 3,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "990271d1-0225-491c-955a-6729009b6e6e",
+      "width": 0,
+      "x": 1389,
+      "y": 264,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "08dd35bf-39b2-4b3c-a1fe-bb4bda661df0",
+      "width": 0,
+      "x": 1323,
+      "y": 429,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "GameTime",
+      "persistentUuid": "7bf3c4e3-bcdd-4dee-9671-3f266f6c246f",
+      "width": 0,
+      "x": 46,
+      "y": 141,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Environment",
+      "name": "Speed",
+      "persistentUuid": "a834423f-8033-4105-8d0b-8a97df0a86b2",
+      "width": 0,
+      "x": 48,
+      "y": 186,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Environment",
+      "name": "Max_Speed",
+      "persistentUuid": "3aff2675-d5d7-4dbc-afa5-e289a4dca84b",
+      "width": 0,
+      "x": 45,
+      "y": 224,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 69,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PixieDustBag",
+      "persistentUuid": "7f26987c-e360-4281-bded-5983d82bb7db",
+      "width": 73,
+      "x": 3155,
+      "y": 644,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 46,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Dashing_Effect_",
+      "persistentUuid": "16c4411f-1885-4c6a-8abb-93cd8c30bc6c",
+      "width": 146,
+      "x": 46,
+      "y": 257,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 151,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bed",
+      "persistentUuid": "b46acb30-544a-4797-98a4-9f7ca5730eb6",
+      "width": 70,
+      "x": -1061,
+      "y": 461,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 526,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HouseFloor",
+      "persistentUuid": "bdefb090-4bad-46ea-b3d4-0f2a16ac237a",
+      "width": 1021,
+      "x": -1161,
+      "y": 112,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 858,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "e723b4df-41a7-4640-9b34-384f6a55c7dd",
+      "width": 64,
+      "x": 4484,
+      "y": -46,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "1edfe522-89dc-4035-9823-d2c9a9c6a4d4",
+      "width": 46,
+      "x": 28,
+      "y": 57,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "0e4190ac-a07d-4972-86e7-e5d957a50696",
+      "width": 46,
+      "x": 31,
+      "y": 146,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "22c2b054-a668-4dda-8785-8009ef8213d7",
+      "width": 46,
+      "x": 34,
+      "y": 239,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "1b1695eb-de78-4904-a0f5-83616a8c915a",
+      "width": 46,
+      "x": 37,
+      "y": 326,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "1d119927-0ff1-4311-ac38-bbb760d8fc36",
+      "width": 46,
+      "x": 40,
+      "y": 418,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "7ccb0966-adaa-4e43-b680-ee8082737053",
+      "width": 46,
+      "x": 44,
+      "y": 508,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 659,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "f18d9588-a9d6-4419-b411-868c0629b55c",
+      "width": 64,
+      "x": 537,
+      "y": -9,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "f0eaec73-c620-4d68-8774-02ac4fe0c458",
+      "width": 0,
+      "x": 345,
+      "y": 183,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "f8e40792-d772-449f-88ec-0bc1d31fb26c",
+      "width": 0,
+      "x": 311,
+      "y": 238,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 255,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "591847e8-244a-42d4-bf1f-778c8a139912",
+      "width": 64,
+      "x": 4331,
+      "y": 264,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 455,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "bc014396-3e2e-495f-bdf9-bbd6230fc764",
+      "width": 64,
+      "x": 3058,
+      "y": -19,
+      "zOrder": 86,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PixieDustBag",
+      "persistentUuid": "bc5ae835-ec5e-4aac-9c25-4addbbb98351",
+      "width": 0,
+      "x": 3110,
+      "y": 647,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PixieDustBag",
+      "persistentUuid": "f1603eea-cc50-4736-9abb-0a7000c7d69f",
+      "width": 0,
+      "x": 3148,
+      "y": 601,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TexBox",
+      "persistentUuid": "1a0c495d-7f38-42d1-bccf-f2a60ae64e5f",
+      "width": 1279,
+      "x": 0,
+      "y": 609,
+      "zOrder": 90,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 400,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TutorialPixie",
+      "persistentUuid": "cc09f7ad-a27e-40f1-877c-1ac11d95f1ed",
+      "width": 400,
+      "x": 56,
+      "y": 731,
+      "zOrder": 91,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "StoryText",
+      "persistentUuid": "9443b29c-39eb-41ec-9721-f31a71b511f5",
+      "width": 1044,
+      "x": 161,
+      "y": 610,
+      "zOrder": 92,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 227,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Trigger",
+      "persistentUuid": "4cee1d2e-b4c1-41f3-860b-bca35c2f258a",
+      "width": 71,
+      "x": -208,
+      "y": 105,
+      "zOrder": 93,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Trigger",
+      "persistentUuid": "5ecb0148-85f7-4825-9b68-de6a1a8332c8",
+      "width": 247,
+      "x": 2829,
+      "y": 399,
+      "zOrder": 94,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 654,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "522737f4-e074-4b23-af59-e81209863c56",
+      "width": 64,
+      "x": 2773,
+      "y": 210,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 220,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Trigger",
+      "persistentUuid": "4c2efcd5-8f88-46ce-8c5a-78bd213b078e",
+      "width": 72,
+      "x": 781,
+      "y": 0,
+      "zOrder": 96,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "82bea3d0-a0fd-408b-8c48-9bb40da76270",
+      "width": 0,
+      "x": 300,
+      "y": 303,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "92fa45c4-f72c-4857-8cc9-59104fb012a5",
+      "width": 0,
+      "x": 285,
+      "y": 367,
+      "zOrder": 98,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PixieDustBag",
+      "persistentUuid": "7e0761fe-c530-4e72-8589-c66c54e3032c",
+      "width": 0,
+      "x": 3103,
+      "y": 587,
+      "zOrder": 99,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 615,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "77221835-7be6-4dfe-b7ec-0ef4c96c80a5",
+      "width": 64,
+      "x": 785,
+      "y": 212,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "06a18a2f-91c2-487b-b6c8-a6caec569048",
+      "width": 0,
+      "x": 3530,
+      "y": 368,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "38fef5fe-2c46-4867-8c74-b4377623635b",
+      "width": 0,
+      "x": 3585,
+      "y": 399,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "df2bc908-0e56-4fac-aef2-436f6300d3c7",
+      "width": 0,
+      "x": 3645,
+      "y": 415,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "d63c7244-eddc-4575-8032-5f279a743b36",
+      "width": 0,
+      "x": 3705,
+      "y": 395,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "e44e3509-d321-4c04-acd5-ac8c69e80774",
+      "width": 0,
+      "x": 4166,
+      "y": 379,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "20c089da-e35e-435b-af33-89ecc9386a88",
+      "width": 0,
+      "x": 4112,
+      "y": 353,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "cd37ba5b-bf47-45cf-961b-c4344095b02e",
+      "width": 0,
+      "x": 3772,
+      "y": 375,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "e8267683-9fdc-4d27-ae23-dee5aca33a91",
+      "width": 0,
+      "x": 4067,
+      "y": 316,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "f36ea6c5-3afe-4df8-ae6c-ad914ac83d49",
+      "width": 0,
+      "x": 4018,
+      "y": 275,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "528a95de-8885-43b3-b8e7-c933cf9e9d0e",
+      "width": 0,
+      "x": 3970,
+      "y": 238,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "4ba2082e-927c-478c-bb71-089e88118e3d",
+      "width": 0,
+      "x": 3925,
+      "y": 195,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "d87a1292-2b59-4987-bfd3-2674737e3beb",
+      "width": 0,
+      "x": 3888,
+      "y": 145,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "5f6fbac7-3c8d-472c-9f3f-5062138f8d18",
+      "width": 0,
+      "x": 3835,
+      "y": 373,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "2e64c551-3f1c-4844-b3e2-5c1a0a3571ae",
+      "width": 0,
+      "x": 3831,
+      "y": 125,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "211a0a80-aa05-481d-9e3f-a0e17d9dd577",
+      "width": 0,
+      "x": 3770,
+      "y": 118,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "178f2849-55a7-473a-85e4-3d1ca9f3cb5b",
+      "width": 0,
+      "x": 3708,
+      "y": 109,
+      "zOrder": 116,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PixieDustBag",
+      "persistentUuid": "c7062655-7f78-42cd-bc04-d893cf1d621e",
+      "width": 0,
+      "x": 3060,
+      "y": 629,
+      "zOrder": 117,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 659,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "97302ff7-6099-4fc2-9873-33d0f84d777a",
+      "width": 64,
+      "x": 1603,
+      "y": -8,
+      "zOrder": 118,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "e61f5608-0a71-4c8f-875c-ea2c9cd393ec",
+      "width": 0,
+      "x": 1980,
+      "y": 486,
+      "zOrder": 119,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "d37da269-4fd9-4123-a259-abd42ed40b13",
+      "width": 0,
+      "x": 2529,
+      "y": 367,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "994993f7-367f-47ac-a854-c130e9a3f8b4",
+      "width": 0,
+      "x": 1999,
+      "y": 164,
+      "zOrder": 121,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "3be4682b-36b2-448e-9b68-bf14022858f0",
+      "width": 0,
+      "x": 2301,
+      "y": 1,
+      "zOrder": 122,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "f6756481-9bf5-4ab0-87ca-8accf120bdd4",
+      "width": 0,
+      "x": 2375,
+      "y": 580,
+      "zOrder": 123,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 471,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "cdc049ea-e5b8-45b3-8c7d-106addff3997",
+      "width": 64,
+      "x": 3265,
+      "y": 183,
+      "zOrder": 124,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "4411a3f3-f682-4574-a433-8aea13652a2a",
+      "width": 0,
+      "x": 3640,
+      "y": 106,
+      "zOrder": 125,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "7507ce06-aaaf-49c2-ab8a-b44d68dee8a9",
+      "width": 0,
+      "x": 3576,
+      "y": 114,
+      "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "dc60e98c-2a89-40a5-9bf7-971390cafed8",
+      "width": 0,
+      "x": 3511,
+      "y": 111,
+      "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "da4aecac-f1bf-4777-91d1-6179337f7d32",
+      "width": 0,
+      "x": 3448,
+      "y": 97,
+      "zOrder": 128,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 580,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "17442728-b970-44f9-b4f1-3ed1b4c86c33",
+      "width": 64,
+      "x": 2097,
+      "y": 225,
+      "zOrder": 129,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 398,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "25ee5b01-e99d-4f72-8868-9f84d63282e3",
+      "width": 64,
+      "x": 2406,
+      "y": -13,
+      "zOrder": 130,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Trigger",
+      "persistentUuid": "c4269e3e-fb0f-4f8a-9148-7978dc78646e",
+      "width": 337,
+      "x": 3881,
+      "y": 382,
+      "zOrder": 131,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Moving_Wall_UpDown",
+      "persistentUuid": "f2eaee4c-5833-4291-bf54-1017df589a54",
+      "width": 0,
+      "x": 2782,
+      "y": 70,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "MovementTime",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "MovementFromOrigin",
+          "type": "number",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Moving_Wall_LeftRight",
+      "persistentUuid": "28038e2a-5d05-4ec0-9537-9f959ba076ca",
+      "width": 0,
+      "x": 2256,
+      "y": 320,
+      "zOrder": 133,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "MovementTime",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "MovementFromOrigin",
+          "type": "number",
+          "value": 50
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "Moving_Wall_UpDown",
+      "texture": "assets\\MovingWall.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [
+        {
+          "name": "Top_Wall_Point",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Bottom_Wall_Point",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MovementFromOrigin",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MovementTime",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 100,
+          "impassable": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "Moving_Wall_LeftRight",
+      "texture": "assets\\MovingWall.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [
+        {
+          "name": "Left_Wall_Point",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Right_Wall_Point",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MovementFromOrigin",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MovementTime",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 100,
+          "impassable": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 96,
+      "name": "LockedDoor_ConditionWall",
+      "texture": "door_closedTop.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 96,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 3,
+          "impassable": true
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bed",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cake.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 0
+                      },
+                      {
+                        "x": 70,
+                        "y": 70
+                      },
+                      {
+                        "x": 0,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "HouseFloor",
+      "texture": "roofRedTopMid.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Tmp",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "A lore Bonus thing here",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "A lore Bonus thing here",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TutorialPixie",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Textnum",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Fae_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 256,
+                        "y": 224
+                      },
+                      {
+                        "x": 768,
+                        "y": 224
+                      },
+                      {
+                        "x": 768,
+                        "y": 736
+                      },
+                      {
+                        "x": 256,
+                        "y": 736
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Fae_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 256,
+                        "y": 224
+                      },
+                      {
+                        "x": 768,
+                        "y": 224
+                      },
+                      {
+                        "x": 768,
+                        "y": 736
+                      },
+                      {
+                        "x": 256,
+                        "y": 736
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Fae_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 256,
+                        "y": 224
+                      },
+                      {
+                        "x": 768,
+                        "y": 224
+                      },
+                      {
+                        "x": 768,
+                        "y": 736
+                      },
+                      {
+                        "x": 256,
+                        "y": 736
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Fae_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 256,
+                        "y": 224
+                      },
+                      {
+                        "x": 768,
+                        "y": 224
+                      },
+                      {
+                        "x": 768,
+                        "y": 736
+                      },
+                      {
+                        "x": 256,
+                        "y": 736
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "StoryText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "Textnum",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Moving_Wall_UpDown"
+      },
+      {
+        "objectName": "Moving_Wall_LeftRight"
+      },
+      {
+        "objectName": "LockedDoor_ConditionWall"
+      },
+      {
+        "objectName": "Bed"
+      },
+      {
+        "objectName": "HouseFloor"
+      },
+      {
+        "objectName": "Tmp"
+      },
+      {
+        "objectName": "TutorialPixie"
+      },
+      {
+        "objectName": "StoryText"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Setting up variables"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isDashing",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"DashCoolDown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Dream",
+            "Owner",
+            "=",
+            "\"Grim\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MaxTime",
+            "=",
+            "120"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "DreamsToSave",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Kid",
+            "HaveDream",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "SleepSpotX",
+            "=",
+            "Grims.X()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "SleepSpotY",
+            "=",
+            "Grims.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"GameTime\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "PixieDustEnergy",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Type",
+            "=",
+            "Grims.ObjectName()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "Player.DashingEffect[1]"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "DashUnlocks",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Assign each dream to a grim"
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Dream",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Grims",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Dream",
+                    "id",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Grims",
+                    "id",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Grims",
+                    "Type",
+                    "!=",
+                    "\"puppygrim\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "NumOfGrimID",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Grims",
+                    "id",
+                    "=",
+                    "NumOfGrimID"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Dream",
+                    "id",
+                    "=",
+                    "NumOfGrimID"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "GameTime",
+            "Text",
+            "=",
+            "\"Time Untill Dawn: \"+ToString(round(MaxTime - TimerElapsedTime(\"GameTime\")))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Wall",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Plant",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Moving_Wall_UpDown",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "Moving_Wall_LeftRight",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Player",
+            "LockedDoor_ConditionWall",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Dream",
+            "Wall",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterX()",
+            "\"Foreground\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "CameraCenterY()",
+            "\"Foreground\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Lose and Win Conditions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"GameTime\"",
+            ">=",
+            "MaxTime"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"LoseScene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Escape\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"PauseScene\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "DreamsToSave",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "12"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CurrentSceneIndexCount",
+            "=",
+            "CurrentSceneIndexCount + 1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentScene",
+            "=",
+            "Active_Scene_List[CurrentSceneIndexCount]"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "CurrentScene",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Dream Logic\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Dream",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Grims",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "id",
+                "=",
+                "Dream.id"
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Dream",
+                "Owner",
+                "=",
+                "\"Grim\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Dream",
+                "=",
+                "Grims.X()",
+                "=",
+                "Grims.Y()"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Dream",
+            "Player",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Dream",
+            "Owner",
+            "=",
+            "\"None\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Dream",
+            "Owner",
+            "=",
+            "\"Player\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "DreamNum",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Dream",
+            "Owner",
+            "=",
+            "\"Player\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Dream",
+            "=",
+            "Player.X()",
+            "=",
+            "Player.Y()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Return Dreams to kids and delete the Grim that stole the Dream"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Kid",
+            "Player",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "DreamNum",
+            ">",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Kid",
+            "HaveDream",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Dream",
+            "Owner",
+            "=",
+            "\"Player\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "DreamsToSave",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "DreamNum",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Kid",
+            "HaveDream",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Kid",
+            "Animation",
+            "=",
+            "\"HaveDream\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "DeleteDreams",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Dream",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "DeleteDreams",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Grims",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Dream",
+                    "Owner",
+                    "=",
+                    "\"Player\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Grims",
+                    "id",
+                    "=",
+                    "Dream.id"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DeleteDreams",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Grims",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Dream",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Change Between Effects"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Num5\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "Player.DashingEffect[0]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Num1\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "Player.DashingEffect[1]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Num2\""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "DashUnlocks",
+            ">=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "Player.DashingEffect[2]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Num3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "DashUnlocks",
+            ">=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "Player.DashingEffect[3]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Num4\""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "DashUnlocks",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "Player.DashingEffect[4]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Dashing_Effect_",
+            "Text",
+            "=",
+            "Player.CurrentDashingEffect"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Dashing and Pixie Bomb"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Space\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isDashing",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"DashCoolDown\"",
+            ">=",
+            "0.3"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "PixieDustEnergy",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isDashing",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"DashDuration\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"DashCoolDown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "PixieDustEnergy",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "startEffect",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "startEffect",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "CurrentDashingEffect",
+                "=",
+                "\"Pixie Bomb\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "PixieBomb",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "PixieBomb",
+                "Scale",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "PixieBomb",
+                "ID",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "startEffect",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "CurrentDashingEffect",
+                "=",
+                "\"Super Bomb\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "PixieDustEnergy",
+                ">=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "PixieBomb",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "PixieBomb",
+                "Scale",
+                "=",
+                "6.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "PixieBomb",
+                "ID",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "PixieDustEnergy",
+                "-",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "startEffect",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "CurrentDashingEffect",
+                "=",
+                "\"Shield\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "PixieDustEnergy",
+                ">=",
+                "0.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "hasShield",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Shield",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Shield",
+                "Scale",
+                "=",
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Shield",
+                "Opacity",
+                "-",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "PixieDustEnergy",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "hasShield",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"ShieldTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "startEffect",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "CurrentDashingEffect",
+                "=",
+                "\"Mud Dust\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Mud_Dust",
+                "Player.X()",
+                "Player.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Mud_Dust",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Mud_Dust",
+                "ID",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "PixieDustEnergy",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isDashing",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"DashDuration\"",
+            "<=",
+            "0.2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "Player",
+            "Player.LastDirection",
+            "1000",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isDashing",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"DashDuration\"",
+            ">",
+            "0.2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isDashing",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "LastDirection",
+            "=",
+            "Player.Angle()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PixieEnergy",
+            "Text",
+            "=",
+            "\"Pixie Energy: \" + ToString(roundTo(Player.PixieDustEnergy, 1))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "PixieDustEnergy",
+            "<=",
+            "10"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "PixieDustEnergy",
+            "+",
+            "0.001"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Shield"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "hasShield",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Shield",
+            "=",
+            "Player.X()",
+            "=",
+            "Player.Y()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"ShieldTimer\"",
+                ">=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Shield",
+                "Opacity",
+                "-",
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "Shield",
+                "Opacity",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Shield",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "hasShield",
+                "False",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Pixie Bomb & Super Bomb"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "PixieBomb",
+            "Opacity",
+            "-",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::Value"
+          },
+          "parameters": [
+            "PixieBomb",
+            "Opacity",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "PixieBomb",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Mud Dust"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isDashing",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "\"Mud Dust\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Mud_Dust",
+            "Player.X()",
+            "Player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Mud_Dust",
+            "Scale",
+            "=",
+            "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Mud_Dust",
+            "Opacity",
+            "-",
+            "1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::Value"
+          },
+          "parameters": [
+            "Mud_Dust",
+            "Opacity",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Mud_Dust",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "The Grim Movement, chase after the their stolen dream"
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Dream",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Grims",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "id",
+                "=",
+                "Dream.id"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Sleeping",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Stun",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Type",
+                "!=",
+                "\"puppygrim\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Grims",
+                "Pathfinding",
+                "",
+                "Dream.X()",
+                "Dream.Y()"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Grim stun from PixieBomb. Wakes them up and lose their dream if they were sleeping"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Grims",
+            "PixieBomb",
+            "",
+            "",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Health",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Health",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Grims",
+            "PixieBomb",
+            "",
+            "",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Health",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Stun",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::Speed"
+          },
+          "parameters": [
+            "Grims",
+            "Pathfinding",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::Acceleration"
+          },
+          "parameters": [
+            "Grims",
+            "Pathfinding",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Dream",
+                "Owner",
+                "=",
+                "\"Grim\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Dream",
+                "id",
+                "=",
+                "Grims.id"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Dream",
+                "Owner",
+                "=",
+                "\"None\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Dream",
+                "=",
+                "Dream.X() + RandomFloatInRange(-50, 50)",
+                "=",
+                "Dream.Y() + RandomFloatInRange(-50, 50)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Sleeping",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Sleeping",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Stun",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::Acceleration"
+              },
+              "parameters": [
+                "Grims",
+                "Pathfinding",
+                "=",
+                "1000"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Grim Slowed from Mud Dust"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Grims",
+            "Mud_Dust",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Grims",
+            "Pathfinding",
+            "=",
+            "Grims.Speed/2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Grims",
+            "Mud_Dust",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Grims",
+            "Pathfinding",
+            "=",
+            "Grims.Speed"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Change to wasd from  default arrow controls in TopDownMovement"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"a\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateLeftKey"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"w\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateUpKey"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"s\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateDownKey"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"d\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateRightKey"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "DreamNumText",
+            "Text",
+            "=",
+            "\"Dreams:\" + Player.DreamNum"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Speed",
+            "Text",
+            "=",
+            "\"Speed:\" + ToString(Player.TopDownMovement::Speed())"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Max_Speed",
+            "Text",
+            "=",
+            "\"Max Speed:\" + ToString(Player.TopDownMovement::MaxSpeed())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Grim steals back the dream and heads to their sleeping location"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Grims",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Sleeping",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Stun",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "DreamNum",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "hasShield",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Type",
+            "!=",
+            "\"puppygrim\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "DreamNum",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Sleeping",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Health",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Dream",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "id",
+                "=",
+                "Dream.id"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Dream",
+                "Owner",
+                "=",
+                "\"Grim\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Dream",
+                "=",
+                "Grims.X()",
+                "=",
+                "Grims.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Type",
+                "=",
+                "\"Big_Grim\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Grims",
+                "Health",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Sleeping",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Type",
+            "!=",
+            "\"puppygrim\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "Grims",
+            "Pathfinding",
+            "",
+            "Grims.SleepSpotX",
+            "Grims.SleepSpotY"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Grim take back the dream if the player fails to take it"
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Grims",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Grims",
+            "Dream",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Sleeping",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Stun",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "id",
+            "=",
+            "Dream.id"
+          ]
+        },
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Dream",
+            "Owner",
+            "=",
+            "\"None\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Dream",
+            "Owner",
+            "=",
+            "\"Grim\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Grims",
+            "Sleeping",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Environment"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Speed Booster"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "SpeedBooster",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isBoosted",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "+",
+            "SpeedBooster.Speed_Boost"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "SpeedBooster",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isBoosted",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "isBoosted",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "-",
+            "SpeedBooster.Speed_Boost"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "PixieDust Bag"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "PixieDustBag",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "PixieDustEnergy",
+            "+",
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "PixieDustBag",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Moving Walls Up Down ( Change the value of MovementFromOrigin and MovementTime to get a result )"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Moving_Wall_UpDown",
+            "Top_Wall_Point",
+            "=",
+            "Moving_Wall_UpDown.Y() - Moving_Wall_UpDown.MovementFromOrigin"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Moving_Wall_UpDown",
+            "Bottom_Wall_Point",
+            "=",
+            "Moving_Wall_UpDown.Y() + Moving_Wall_UpDown.MovementFromOrigin"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "Moving_Wall_UpDown",
+            "Tween",
+            "\"WallMoveUp\"",
+            "Moving_Wall_UpDown.Top_Wall_Point",
+            "\"linear\"",
+            "Moving_Wall_UpDown.MovementTime",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Moving_Wall_UpDown",
+            "Tween",
+            "\"WallMoveUp\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "Moving_Wall_UpDown",
+            "Tween",
+            "\"WallMoveDown\"",
+            "Moving_Wall_UpDown.Bottom_Wall_Point",
+            "\"linear\"",
+            "Moving_Wall_UpDown.MovementTime",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "Moving_Wall_UpDown",
+            "Tween",
+            "\"WallMoveUp\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Moving_Wall_UpDown",
+            "Tween",
+            "\"WallMoveDown\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "Moving_Wall_UpDown",
+            "Tween",
+            "\"WallMoveUp\"",
+            "Moving_Wall_UpDown.Top_Wall_Point",
+            "\"linear\"",
+            "Moving_Wall_UpDown.MovementTime",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "Moving_Wall_UpDown",
+            "Tween",
+            "\"WallMoveDown\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Moving Walls Left Right ( Change the value of MovementFromOrigin and MovementTime to get a result )"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Moving_Wall_LeftRight",
+            "Left_Wall_Point",
+            "=",
+            "Moving_Wall_LeftRight.X() - Moving_Wall_LeftRight.MovementFromOrigin"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Moving_Wall_LeftRight",
+            "Right_Wall_Point",
+            "=",
+            "Moving_Wall_LeftRight.X() + Moving_Wall_LeftRight.MovementFromOrigin"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "Moving_Wall_LeftRight",
+            "Tween",
+            "\"WallMoveLeft\"",
+            "Moving_Wall_LeftRight.Left_Wall_Point",
+            "\"linear\"",
+            "Moving_Wall_LeftRight.MovementTime",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Moving_Wall_LeftRight",
+            "Tween",
+            "\"WallMoveLeft\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "Moving_Wall_LeftRight",
+            "Tween",
+            "\"WallMoveRight\"",
+            "Moving_Wall_LeftRight.Right_Wall_Point",
+            "\"linear\"",
+            "Moving_Wall_LeftRight.MovementTime",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "Moving_Wall_LeftRight",
+            "Tween",
+            "\"WallMoveLeft\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "Moving_Wall_LeftRight",
+            "Tween",
+            "\"WallMoveRight\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "Moving_Wall_LeftRight",
+            "Tween",
+            "\"WallMoveLeft\"",
+            "Moving_Wall_LeftRight.Left_Wall_Point",
+            "\"linear\"",
+            "Moving_Wall_LeftRight.MovementTime",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "Moving_Wall_LeftRight",
+            "Tween",
+            "\"WallMoveRight\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Condition Wall/Door, For now only if player has 1 dream"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "DreamNum",
+            ">=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "LockedDoor_ConditionWall",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "LockedDoor_ConditionWall",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "movement of enemies"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            " \"TeleportTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Big_Grim",
+            "Health",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Grim",
+            "Speed",
+            "=",
+            "400"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Big_Grim",
+            "Speed",
+            "=",
+            "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            "Speed",
+            "=",
+            "300"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "puppygrim",
+            "Speed",
+            "=",
+            "600"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Big_Grim",
+            "Pathfinding",
+            "=",
+            "Big_Grim.Speed"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "puppygrim",
+            "Pathfinding",
+            "=",
+            "puppygrim.Speed"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Grim",
+            "Pathfinding",
+            "=",
+            "Grim.Speed"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            "Pathfinding",
+            "=",
+            "shadowTravelgrim.Speed"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"KnockDuration\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Puppygrim logic"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "puppygrim",
+            "Pathfinding",
+            "",
+            "Player.X()",
+            "Player.Y()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "puppygrim",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"KnockDuration\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "puppygrim",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "DreamNum",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Dream",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Dream",
+                    "Owner",
+                    "=",
+                    "\"Player\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Dream",
+                    "Owner",
+                    "=",
+                    "\"KnockedOff\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "DreamNum",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Angle",
+                    "=",
+                    "RandomInRange(0,360)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Dream",
+                    "KnockX",
+                    "=",
+                    "Player.X() + cos(Player.Angle) * 150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Dream",
+                    "KnockY",
+                    "=",
+                    "Player.Y() + sin(Player.Angle) * 150"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "DreamNum",
+                ">=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "yes"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Dream",
+            "Owner",
+            "=",
+            "\"KnockedOff\""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"KnockDuration\"",
+            "<=",
+            "0.3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVersPos"
+          },
+          "parameters": [
+            "Dream",
+            "Dream.KnockX",
+            "Dream.KnockY",
+            "400",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"KnockDuration\"",
+            ">",
+            "0.3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Dream",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Dream",
+                "Owner",
+                "=",
+                "\"KnockedOff\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Dream",
+                "Owner",
+                "=",
+                "\"None\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "ShadowTravelgrim logic"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            "Sleeping",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            "Stun",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            " \"TeleportTimer\"",
+            ">=",
+            "2.5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            "\"TeleportTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            "Pathfinding",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            "Angle",
+            "=",
+            "RandomInRange(0,360)"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            "=",
+            "Player.X() + cos(shadowTravelgrim.Angle) * 200",
+            "=",
+            "Player.Y() + sin(shadowTravelgrim.Angle) * 200"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "shadowTravelgrim",
+            "Pathfinding",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Trigger",
+            "Player",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Tmp",
+            "Text",
+            "=",
+            "\"Hits\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Textbox triggers"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"Poor kid... a grim took his dream...\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"Let's not waste anymore time, use WASD keys to move.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextBox"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Trigger",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Trigger",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "TextBox",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"See that \\\"Until Dawn \\\" text?\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"Yeah that's how much time you have until the kids miss school.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"From lack of sleep.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextBox"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Trigger",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Trigger",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "TextBox",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"Use Space to dash. Dashing uses Pixie Dust Energy.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"I leave behind a pixie bomb that will stun grims for a bit and make them drop the dream.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"Keep that in mind.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextBox"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Trigger",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Trigger",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "TextBox",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"Pixie dust bags help replenish your Pixie dust energy more quickly.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextBox"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Trigger",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Trigger",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "TextBox",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"That's the Grim! he's sleeping right now.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"Walk up to it and dash to stun it and then pick up the dream.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"Then run back to the kid, once you get the dream to him the grim will... dissapear.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextBox"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "DreamsToSave",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "TextBox",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"We did it! The kid can sleep easy tonight\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"But alot more kids have had their dream stolen.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "StoryText",
+            "Text",
+            "=",
+            "\"Our work is not finished yet.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "yes"
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Environment",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Foreground",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "TopDownMultitouchMapper",
+      "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
