@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.18923010380623626,
+    "zoomFactor": 0.15002679255026136,
     "windowMask": false
   },
   "objectsGroups": [
@@ -107,8 +107,8 @@
       "name": "Player",
       "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
       "width": 196,
-      "x": 87,
-      "y": -2130,
+      "x": -2076,
+      "y": -728,
       "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
@@ -2485,7 +2485,7 @@
           "parameters": [
             "MaxTime",
             "=",
-            "120"
+            "160"
           ]
         },
         {
@@ -2818,9 +2818,45 @@
             ">=",
             "MaxTime"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\lose sound.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
         {
           "type": {
             "value": "Scene"
@@ -3175,6 +3211,18 @@
           "parameters": [
             "DeleteDreams",
             "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\giving dreams to the kid.mp3",
+            "",
+            "",
             ""
           ]
         }
@@ -3568,6 +3616,18 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\dashing sound.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "events": [
@@ -3636,6 +3696,18 @@
                 "ID",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sound effect\\sound effect\\pixie bomb sound Short.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -3727,6 +3799,18 @@
                 "PixieDustEnergy",
                 "-",
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sound effect\\sound effect\\pixie bomb sound Short.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -4493,6 +4577,18 @@
             "-",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\grim damage.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -4678,6 +4774,18 @@
                 "Pathfinding",
                 "=",
                 "1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sound effect\\sound effect\\grim growling.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -5029,6 +5137,18 @@
             "Health",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\pixie damage.mp3",
+            "",
+            "",
+            ""
           ]
         }
       ],
@@ -5428,6 +5548,18 @@
             "PixieDustBag",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\picking up pixie dust bags.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -5767,6 +5899,18 @@
           },
           "parameters": [
             "LockedDoor_ConditionWall",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\door unlock.mp3",
+            "",
+            "",
             ""
           ]
         }
@@ -6696,6 +6840,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\win sound.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
@@ -6767,6 +6923,45 @@
             "Player",
             "TopDownMovement",
             "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Music"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\background music.mp3",
+            "yes",
+            "",
+            ""
           ]
         }
       ]

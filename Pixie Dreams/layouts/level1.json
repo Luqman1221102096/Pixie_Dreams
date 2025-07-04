@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.16572117247527368,
+    "zoomFactor": 0.20902556228335936,
     "windowMask": false
   },
   "objectsGroups": [
@@ -891,23 +891,6 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
-      "customSize": true,
-      "depth": 1,
-      "height": 255,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "591847e8-244a-42d4-bf1f-778c8a139912",
-      "width": 64,
-      "x": 4331,
-      "y": 264,
-      "zOrder": 84,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": true,
       "depth": 1,
@@ -1149,8 +1132,8 @@
       "name": "Plant",
       "persistentUuid": "06a18a2f-91c2-487b-b6c8-a6caec569048",
       "width": 0,
-      "x": 3530,
-      "y": 368,
+      "x": 3529,
+      "y": 379,
       "zOrder": 101,
       "numberProperties": [],
       "stringProperties": [],
@@ -1165,8 +1148,8 @@
       "name": "Plant",
       "persistentUuid": "38fef5fe-2c46-4867-8c74-b4377623635b",
       "width": 0,
-      "x": 3585,
-      "y": 399,
+      "x": 3587,
+      "y": 401,
       "zOrder": 102,
       "numberProperties": [],
       "stringProperties": [],
@@ -1181,8 +1164,8 @@
       "name": "Plant",
       "persistentUuid": "df2bc908-0e56-4fac-aef2-436f6300d3c7",
       "width": 0,
-      "x": 3645,
-      "y": 415,
+      "x": 3648,
+      "y": 417,
       "zOrder": 103,
       "numberProperties": [],
       "stringProperties": [],
@@ -1197,8 +1180,8 @@
       "name": "Plant",
       "persistentUuid": "d63c7244-eddc-4575-8032-5f279a743b36",
       "width": 0,
-      "x": 3705,
-      "y": 395,
+      "x": 3713,
+      "y": 417,
       "zOrder": 104,
       "numberProperties": [],
       "stringProperties": [],
@@ -1245,8 +1228,8 @@
       "name": "Plant",
       "persistentUuid": "cd37ba5b-bf47-45cf-961b-c4344095b02e",
       "width": 0,
-      "x": 3772,
-      "y": 375,
+      "x": 3775,
+      "y": 396,
       "zOrder": 107,
       "numberProperties": [],
       "stringProperties": [],
@@ -1341,8 +1324,8 @@
       "name": "Plant",
       "persistentUuid": "5f6fbac7-3c8d-472c-9f3f-5062138f8d18",
       "width": 0,
-      "x": 3835,
-      "y": 373,
+      "x": 3838,
+      "y": 399,
       "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
@@ -1510,23 +1493,6 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
-      "customSize": true,
-      "depth": 1,
-      "height": 471,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "cdc049ea-e5b8-45b3-8c7d-106addff3997",
-      "width": 64,
-      "x": 3265,
-      "y": 183,
-      "zOrder": 124,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": false,
       "height": 0,
@@ -1567,8 +1533,8 @@
       "name": "Plant",
       "persistentUuid": "dc60e98c-2a89-40a5-9bf7-971390cafed8",
       "width": 0,
-      "x": 3511,
-      "y": 111,
+      "x": 3509,
+      "y": 118,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -1583,8 +1549,8 @@
       "name": "Plant",
       "persistentUuid": "da4aecac-f1bf-4777-91d1-6179337f7d32",
       "width": 0,
-      "x": 3448,
-      "y": 97,
+      "x": 3443,
+      "y": 113,
       "zOrder": 128,
       "numberProperties": [],
       "stringProperties": [],
@@ -1694,6 +1660,40 @@
           "value": 50
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "a9288610-3899-419b-b76f-ee14bce38384",
+      "width": 255,
+      "x": 4233,
+      "y": 384,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "67112232-481f-41f6-98cc-992d21eeacb4",
+      "width": 471,
+      "x": 3058,
+      "y": 374,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2563,9 +2563,45 @@
             ">=",
             "MaxTime"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\lose sound.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
         {
           "type": {
             "value": "Scene"
@@ -2920,6 +2956,18 @@
           "parameters": [
             "DeleteDreams",
             "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\giving dreams to the kid.mp3",
+            "",
+            "",
             ""
           ]
         }
@@ -3313,6 +3361,18 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\dashing sound.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "events": [
@@ -3381,6 +3441,18 @@
                 "ID",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sound effect\\sound effect\\pixie bomb sound Short.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -3472,6 +3544,18 @@
                 "PixieDustEnergy",
                 "-",
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sound effect\\sound effect\\pixie bomb sound Short.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -4238,6 +4322,18 @@
             "-",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\grim damage.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -4423,6 +4519,18 @@
                 "Pathfinding",
                 "=",
                 "1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sound effect\\sound effect\\grim growling.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -4774,6 +4882,18 @@
             "Health",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\pixie damage.mp3",
+            "",
+            "",
+            ""
           ]
         }
       ],
@@ -5171,6 +5291,18 @@
           },
           "parameters": [
             "PixieDustBag",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\picking up pixie dust bags.mp3",
+            "",
+            "",
             ""
           ]
         }
@@ -6179,6 +6311,15 @@
         },
         {
           "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"GameTime\""
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -6231,6 +6372,15 @@
           },
           "parameters": [
             "TextBox"
+          ]
+        },
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"GameTime\""
           ]
         }
       ]
@@ -6724,6 +6874,15 @@
         },
         {
           "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"GameTime\""
+          ]
+        },
+        {
+          "type": {
             "value": "ActivateBehavior"
           },
           "parameters": [
@@ -6806,6 +6965,15 @@
             "TopDownMovement",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "UnPauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"GameTime\""
+          ]
         }
       ]
     },
@@ -6830,6 +6998,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\win sound.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Wait"
@@ -6922,6 +7102,45 @@
             "Player",
             "TopDownMovement",
             "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Music"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\background music.mp3",
+            "yes",
+            "",
+            ""
           ]
         }
       ]

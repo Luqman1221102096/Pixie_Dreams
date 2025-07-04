@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 231,
+    "build": 233,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -792,6 +792,156 @@
         "kind": "font",
         "metadata": "",
         "name": "assets\\Rubik-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/background music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\background music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/dashing sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\dashing sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/door unlock.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\door unlock.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/giving dreams to the kid.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\giving dreams to the kid.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/grim damage.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\grim damage.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/grim growling.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\grim growling.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/lose sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\lose sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/mud sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\mud sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/picking up pixie dust bags.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\picking up pixie dust bags.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/pixie bomb sound Short.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\pixie bomb sound Short.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/pixie damage.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\pixie damage.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/shield sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\shield sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/speed boost.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\speed boost.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/teleport sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\teleport sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/win sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\win sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
