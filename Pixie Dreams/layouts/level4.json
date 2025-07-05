@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.11131182576837934,
+    "zoomFactor": 0.14513286445534362,
     "windowMask": false
   },
   "objectsGroups": [
@@ -107,8 +107,8 @@
       "name": "Player",
       "persistentUuid": "ebd4e918-fdc8-4c06-baef-2e0f46c2cfd5",
       "width": 196,
-      "x": -826,
-      "y": -4170,
+      "x": -644,
+      "y": -4284,
       "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
@@ -1883,8 +1883,8 @@
       "name": "PixieDustBag",
       "persistentUuid": "55039124-085b-4ff1-8b94-dc7b6d67c1e0",
       "width": 0,
-      "x": 1469,
-      "y": -1552,
+      "x": 926,
+      "y": -2304,
       "zOrder": 1031,
       "numberProperties": [],
       "stringProperties": [],
@@ -2371,8 +2371,8 @@
       "name": "PixieDustBag",
       "persistentUuid": "22086c8c-505d-4544-b53a-0984654ac827",
       "width": 0,
-      "x": -2240,
-      "y": -3049,
+      "x": -2556,
+      "y": -3293,
       "zOrder": 1058,
       "numberProperties": [],
       "stringProperties": [],
@@ -3113,6 +3113,68 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1939,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SpeedBooster",
+      "persistentUuid": "dad17f29-531c-44df-9cb9-065fed93590e",
+      "width": 275,
+      "x": -2363,
+      "y": -4118,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Speed_Boost",
+          "type": "number",
+          "value": 300
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PixieDustBag",
+      "persistentUuid": "93f5e7fd-5323-492d-bc62-7a8670f422c9",
+      "width": 0,
+      "x": 76,
+      "y": -3389,
+      "zOrder": 1078,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 254,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SpeedBooster",
+      "persistentUuid": "c9b41de4-ba54-4b09-8e32-5206b7b997d8",
+      "width": 1913,
+      "x": 555,
+      "y": -1658,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Speed_Boost",
+          "type": "number",
+          "value": 300
+        }
+      ]
     }
   ],
   "objects": [
@@ -8286,10 +8348,26 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
           ]
         }
       ],

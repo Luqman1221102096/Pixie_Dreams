@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.20902556228335936,
+    "zoomFactor": 0.22336005893812225,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1228,8 +1228,8 @@
       "name": "Plant",
       "persistentUuid": "cd37ba5b-bf47-45cf-961b-c4344095b02e",
       "width": 0,
-      "x": 3775,
-      "y": 396,
+      "x": 3804,
+      "y": 511,
       "zOrder": 107,
       "numberProperties": [],
       "stringProperties": [],
@@ -1322,22 +1322,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "Plant",
-      "persistentUuid": "5f6fbac7-3c8d-472c-9f3f-5062138f8d18",
-      "width": 0,
-      "x": 3838,
-      "y": 399,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Plant",
       "persistentUuid": "2e64c551-3f1c-4844-b3e2-5c1a0a3571ae",
       "width": 0,
       "x": 3831,
@@ -1372,8 +1356,8 @@
       "name": "Plant",
       "persistentUuid": "178f2849-55a7-473a-85e4-3d1ca9f3cb5b",
       "width": 0,
-      "x": 3708,
-      "y": 109,
+      "x": 3703,
+      "y": 123,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -1550,7 +1534,7 @@
       "persistentUuid": "da4aecac-f1bf-4777-91d1-6179337f7d32",
       "width": 0,
       "x": 3443,
-      "y": 113,
+      "y": 122,
       "zOrder": 128,
       "numberProperties": [],
       "stringProperties": [],
@@ -1594,14 +1578,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 53,
+      "height": 144,
       "keepRatio": true,
       "layer": "",
       "name": "Trigger",
       "persistentUuid": "c4269e3e-fb0f-4f8a-9148-7978dc78646e",
-      "width": 337,
-      "x": 3881,
-      "y": 382,
+      "width": 49,
+      "x": 4184,
+      "y": 446,
       "zOrder": 131,
       "numberProperties": [],
       "stringProperties": [],
@@ -1691,6 +1675,118 @@
       "x": 3058,
       "y": 374,
       "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "ec888f6b-0a0f-4e58-b40a-2bb39f30bfa7",
+      "width": 0,
+      "x": 3762,
+      "y": 463,
+      "zOrder": 1001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "f7550168-0446-4ea2-946d-ede85cc80134",
+      "width": 0,
+      "x": 3857,
+      "y": 553,
+      "zOrder": 1002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "5fee8c13-f2c6-4bf3-9c13-db281a59c51c",
+      "width": 0,
+      "x": 3924,
+      "y": 562,
+      "zOrder": 1003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "1ce8acfd-2da7-4842-91a2-3204f849af4e",
+      "width": 0,
+      "x": 3985,
+      "y": 572,
+      "zOrder": 1004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "ffd04bef-205b-43ed-a06f-ff08db8729c1",
+      "width": 0,
+      "x": 4048,
+      "y": 577,
+      "zOrder": 1005,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "ed8b4633-aba9-498d-b5fc-f4402a779b98",
+      "width": 0,
+      "x": 4114,
+      "y": 584,
+      "zOrder": 1006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "8c20eef5-44e9-44b6-b5d0-8103ac782bb5",
+      "width": 0,
+      "x": 4179,
+      "y": 588,
+      "zOrder": 1007,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7123,10 +7219,26 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
           ]
         }
       ],

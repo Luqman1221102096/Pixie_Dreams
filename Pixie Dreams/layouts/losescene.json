@@ -653,6 +653,18 @@
             "CurrentScene",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -697,6 +709,18 @@
           "parameters": [
             "",
             "CurrentScene",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
             ""
           ]
         }

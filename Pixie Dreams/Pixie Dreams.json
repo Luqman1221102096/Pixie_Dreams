@@ -943,6 +943,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/success_bell-6776.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\success_bell-6776.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/fantasy-relaxation-music-111778.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\fantasy-relaxation-music-111778.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

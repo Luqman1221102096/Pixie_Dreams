@@ -5,7 +5,7 @@
   "name": "Menu Scene",
   "r": 126,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 185,
   "uiSettings": {
@@ -581,11 +581,22 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "PushScene"
           },
           "parameters": [
             "",
-            "\"Level Select Scene\"",
+            "\"Level Select Scene\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
             ""
           ]
         }
@@ -607,9 +618,48 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Quit"
           },
           "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\fantasy-relaxation-music-111778.mp3",
+            "yes",
+            "",
             ""
           ]
         }

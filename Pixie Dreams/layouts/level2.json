@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15002679255026136,
+    "zoomFactor": 0.5290357402157051,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1887,8 +1887,8 @@
       "name": "PixieDustBag",
       "persistentUuid": "681cf354-665c-45d4-b611-6053367f82f2",
       "width": 0,
-      "x": -1792,
-      "y": -1107,
+      "x": -1831,
+      "y": -1072,
       "zOrder": 168,
       "numberProperties": [],
       "stringProperties": [],
@@ -1940,6 +1940,23 @@
       "x": 375,
       "y": -382,
       "zOrder": 124,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 439,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Trigger",
+      "persistentUuid": "db969fe0-2a51-4838-8c74-e6cebd324b45",
+      "width": 84,
+      "x": -1679,
+      "y": -1264,
+      "zOrder": 1001,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6728,6 +6745,78 @@
             "value": "CollisionNP"
           },
           "parameters": [
+            "Player",
+            "Trigger",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Trigger",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TextBox",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "StoryText",
+                "Text",
+                "=",
+                "\"By the way, You can pause the game with the esc key.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TextBox"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
             "LockedDoor_ConditionWall",
             "Player",
             "",
@@ -6767,6 +6856,17 @@
             "=",
             "\"We don't have enough dreams.\""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "-1"
+          ]
         }
       ]
     },
@@ -6794,8 +6894,14 @@
             "TextBox",
             "Textnum",
             "=",
-            "1"
+            "-1"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -6813,6 +6919,17 @@
           },
           "parameters": [
             "TextBox"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "TextBox",
+            "Textnum",
+            "=",
+            "1"
           ]
         }
       ]
@@ -6944,10 +7061,26 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
           ]
         }
       ],

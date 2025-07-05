@@ -5,7 +5,7 @@
   "name": "Level Select Scene",
   "r": 126,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 185,
   "uiSettings": {
@@ -673,11 +673,21 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "PopScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
           },
           "parameters": [
             "",
-            "\"Menu Scene\"",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
             ""
           ]
         }
@@ -726,6 +736,18 @@
             "\"Intro\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -770,6 +792,18 @@
           "parameters": [
             "",
             "\"Level2\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
             ""
           ]
         }
@@ -818,6 +852,18 @@
             "\"Level3\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -864,6 +910,18 @@
             "\"Level4\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -908,6 +966,18 @@
           "parameters": [
             "",
             "\"Level5\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
             ""
           ]
         }
