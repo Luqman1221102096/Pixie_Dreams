@@ -1058,11 +1058,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bat.png",
+                  "image": "Pixie_Assets\\Grim_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1078,20 +1078,128 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 0
+                        "x": 48,
+                        "y": 144
                       },
                       {
-                        "x": 70,
-                        "y": 0
+                        "x": 976,
+                        "y": 144
                       },
                       {
-                        "x": 70,
-                        "y": 47
+                        "x": 976,
+                        "y": 848
                       },
                       {
-                        "x": 1,
-                        "y": 47
+                        "x": 48,
+                        "y": 848
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Big_Grim_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 848
+                      },
+                      {
+                        "x": 48,
+                        "y": 848
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Big_Grim_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 848
+                      },
+                      {
+                        "x": 48,
+                        "y": 848
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Big_Grim_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 144
+                      },
+                      {
+                        "x": 976,
+                        "y": 848
+                      },
+                      {
+                        "x": 48,
+                        "y": 848
                       }
                     ]
                   ]
@@ -1386,6 +1494,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -1565,6 +1685,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -1599,6 +1731,17 @@
             "TutorialPixie.X()+600",
             "TutorialPixie.Y()-60",
             "\"Tutorial layer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "TutGrim",
+            "Resizable",
+            "96",
+            "96"
           ]
         },
         {
@@ -1758,6 +1901,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
@@ -1890,6 +2045,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
@@ -1999,6 +2166,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
@@ -2063,6 +2242,18 @@
           },
           "parameters": [
             "No",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\success_bell-6776.mp3",
+            "",
+            "",
             ""
           ]
         },

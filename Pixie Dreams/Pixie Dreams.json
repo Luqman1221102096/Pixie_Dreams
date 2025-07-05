@@ -1093,6 +1093,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/happy-pop-2-185287.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\happy-pop-2-185287.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4618,6 +4628,11 @@
           "value": "Level5"
         }
       ]
+    },
+    {
+      "name": "PreviousText",
+      "type": "string",
+      "value": "0"
     }
   ],
   "layouts": [
