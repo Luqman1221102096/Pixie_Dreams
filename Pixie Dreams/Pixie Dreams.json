@@ -1027,6 +1027,72 @@
         "name": "Pixie_Assets\\arrow.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/HUD.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\HUD.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Flat dark joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Flat dark joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/hud_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\hud_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/hud_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\hud_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/hud_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\hud_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/hud_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\hud_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sound effect/sound effect/changeeffect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound effect\\sound effect\\changeeffect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1080,7 +1146,6 @@
           "value": false
         },
         {
-          "folded": true,
           "name": "DashingEffect",
           "type": "array",
           "children": [
@@ -2768,7 +2833,7 @@
       "string": "Text",
       "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 32,
       "color": {
         "b": 0,
         "g": 0,
@@ -2792,7 +2857,7 @@
         "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 32,
         "color": "0;0;0"
       }
     },
@@ -3960,6 +4025,456 @@
           "width": 192
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HUD",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\HUD.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 54,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 0
+                      },
+                      {
+                        "x": 1124,
+                        "y": 362
+                      },
+                      {
+                        "x": 54,
+                        "y": 362
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dream_HUD",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Dream_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 896,
+                        "y": 128
+                      },
+                      {
+                        "x": 896,
+                        "y": 864
+                      },
+                      {
+                        "x": 128,
+                        "y": 864
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DashEffect_HUD",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "PixieBomb",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\hud_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 192,
+                        "y": 160
+                      },
+                      {
+                        "x": 864,
+                        "y": 160
+                      },
+                      {
+                        "x": 864,
+                        "y": 832
+                      },
+                      {
+                        "x": 192,
+                        "y": 832
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SuperBomb",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\hud_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 192,
+                        "y": 160
+                      },
+                      {
+                        "x": 864,
+                        "y": 160
+                      },
+                      {
+                        "x": 864,
+                        "y": 832
+                      },
+                      {
+                        "x": 192,
+                        "y": 832
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shield",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\hud_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 192,
+                        "y": 160
+                      },
+                      {
+                        "x": 864,
+                        "y": 160
+                      },
+                      {
+                        "x": 864,
+                        "y": 832
+                      },
+                      {
+                        "x": 192,
+                        "y": 832
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mud",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\hud_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 192,
+                        "y": 160
+                      },
+                      {
+                        "x": 864,
+                        "y": 160
+                      },
+                      {
+                        "x": 864,
+                        "y": 832
+                      },
+                      {
+                        "x": 192,
+                        "y": 832
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PixieEnergyText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pixie Energy:",
+      "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Pixie Energy:",
+        "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "DreamText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Dreams",
+      "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Dreams",
+        "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TimeText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time Untill Dawn",
+      "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Time Untill Dawn",
+        "font": "Caveat_Brush\\CaveatBrush-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4011,7 +4526,16 @@
         "objectName": "PixieEnergy"
       },
       {
+        "objectName": "PixieEnergyText"
+      },
+      {
+        "objectName": "DreamText"
+      },
+      {
         "objectName": "DreamNumText"
+      },
+      {
+        "objectName": "TimeText"
       },
       {
         "objectName": "PixieDustBag"
@@ -4036,6 +4560,15 @@
       },
       {
         "objectName": "Menu_Button_Template"
+      },
+      {
+        "objectName": "HUD"
+      },
+      {
+        "objectName": "Dream_HUD"
+      },
+      {
+        "objectName": "DashEffect_HUD"
       }
     ]
   },

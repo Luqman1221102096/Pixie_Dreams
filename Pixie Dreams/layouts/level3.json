@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.10768079385624109,
+    "zoomFactor": 0.6672773998330321,
     "windowMask": false
   },
   "objectsGroups": [
@@ -173,8 +173,8 @@
       "name": "PixieEnergy",
       "persistentUuid": "4aa1e555-b8eb-4031-85ec-6c4fcad94cc3",
       "width": 0,
-      "x": 43,
-      "y": 41,
+      "x": 199,
+      "y": 94,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,8 +189,8 @@
       "name": "DreamNumText",
       "persistentUuid": "4ecaaa79-f048-4f9f-ad9d-985b9fdb41c4",
       "width": 0,
-      "x": 47,
-      "y": 95,
+      "x": 133,
+      "y": 203,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -205,41 +205,9 @@
       "name": "GameTime",
       "persistentUuid": "7bf3c4e3-bcdd-4dee-9671-3f266f6c246f",
       "width": 0,
-      "x": 46,
-      "y": 141,
+      "x": 620,
+      "y": 40,
       "zOrder": 57,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Environment",
-      "name": "Speed",
-      "persistentUuid": "a834423f-8033-4105-8d0b-8a97df0a86b2",
-      "width": 0,
-      "x": 48,
-      "y": 186,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Environment",
-      "name": "Max_Speed",
-      "persistentUuid": "3aff2675-d5d7-4dbc-afa5-e289a4dca84b",
-      "width": 0,
-      "x": 45,
-      "y": 224,
-      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -254,8 +222,8 @@
       "name": "Dashing_Effect_",
       "persistentUuid": "16c4411f-1885-4c6a-8abb-93cd8c30bc6c",
       "width": 146,
-      "x": 46,
-      "y": 257,
+      "x": 167,
+      "y": 24,
       "zOrder": 62,
       "numberProperties": [],
       "stringProperties": [],
@@ -2363,6 +2331,105 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 720,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "HUD",
+      "persistentUuid": "09ae7e77-ef4c-42a8-b244-e9fdb2f0f970",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TimeText",
+      "persistentUuid": "ac5dd143-8501-4891-bf16-3e2de325c3db",
+      "width": 0,
+      "x": 565,
+      "y": 4,
+      "zOrder": 1089,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PixieEnergyText",
+      "persistentUuid": "fbe58624-c0c2-4e75-aeb5-cac902a2f1ec",
+      "width": 0,
+      "x": 166,
+      "y": 65,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "DreamText",
+      "persistentUuid": "fdb86eea-9a92-4660-978d-55b1bc273eaf",
+      "width": 0,
+      "x": 128,
+      "y": 163,
+      "zOrder": 1088,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 120,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "DashEffect_HUD",
+      "persistentUuid": "929f2629-d992-4f8f-be23-0e19e1494c80",
+      "width": 120,
+      "x": 98,
+      "y": 86,
+      "zOrder": 1086,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Dream_HUD",
+      "persistentUuid": "0cd823ef-52c5-43f6-929e-83cfccc1a65d",
+      "width": 64,
+      "x": 59,
+      "y": 169,
+      "zOrder": 1085,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3225,7 +3292,7 @@
             "GameTime",
             "Text",
             "=",
-            "\"Time Untill Dawn: \"+ToString(round(MaxTime - TimerElapsedTime(\"GameTime\")))"
+            "ToString(round(MaxTime - TimerElapsedTime(\"GameTime\")))"
           ]
         }
       ]
@@ -3863,6 +3930,12 @@
             "",
             "\"Num5\""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -3875,6 +3948,18 @@
             "CurrentDashingEffect",
             "=",
             "Player.DashingEffect[0]"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\changeeffect.mp3",
+            "",
+            "60",
+            ""
           ]
         }
       ]
@@ -3890,6 +3975,12 @@
             "",
             "\"Num1\""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -3902,6 +3993,18 @@
             "CurrentDashingEffect",
             "=",
             "Player.DashingEffect[1]"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\changeeffect.mp3",
+            "",
+            "60",
+            ""
           ]
         }
       ]
@@ -3927,6 +4030,12 @@
             ">=",
             "2"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -3939,6 +4048,18 @@
             "CurrentDashingEffect",
             "=",
             "Player.DashingEffect[2]"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\changeeffect.mp3",
+            "",
+            "60",
+            ""
           ]
         }
       ]
@@ -3964,6 +4085,12 @@
             ">=",
             "3"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -3976,6 +4103,18 @@
             "CurrentDashingEffect",
             "=",
             "Player.DashingEffect[3]"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\changeeffect.mp3",
+            "",
+            "60",
+            ""
           ]
         }
       ]
@@ -4001,6 +4140,12 @@
             ">=",
             "4"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -4013,6 +4158,18 @@
             "CurrentDashingEffect",
             "=",
             "Player.DashingEffect[4]"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sound effect\\sound effect\\changeeffect.mp3",
+            "",
+            "60",
+            ""
           ]
         }
       ]
@@ -4695,7 +4852,7 @@
             "PixieEnergy",
             "Text",
             "=",
-            "\"Pixie Energy: \" + ToString(roundTo(Player.PixieDustEnergy, 1))"
+            "ToString(roundTo(Player.PixieDustEnergy, 1))"
           ]
         }
       ]
@@ -5556,7 +5713,7 @@
             "DreamNumText",
             "Text",
             "=",
-            "\"Dreams:\" + Player.DreamNum"
+            "\"x \" + Player.DreamNum"
           ]
         },
         {
@@ -7766,6 +7923,196 @@
             "yes",
             "50",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Change dash effect image"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "\"Pixie Bomb\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "DashEffect_HUD",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "DashEffect_HUD",
+            "Animation",
+            "=",
+            "\"PixieBomb\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "\"Super Bomb\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "DashEffect_HUD",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "DashEffect_HUD",
+            "Animation",
+            "=",
+            "\"SuperBomb\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "\"Shield\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "DashEffect_HUD",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "DashEffect_HUD",
+            "Animation",
+            "=",
+            "\"Shield\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "\"Mud Dust\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "DashEffect_HUD",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "DashEffect_HUD",
+            "Animation",
+            "=",
+            "\"Mud\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "CurrentDashingEffect",
+            "=",
+            "\"No Effect\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DashEffect_HUD"
           ]
         }
       ]
