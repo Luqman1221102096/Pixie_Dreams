@@ -5023,13 +5023,24 @@
             },
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PixieBomb",
+                "Animation",
+                "=",
+                "\"Pixie Bomb\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
                 "PixieBomb",
                 "Scale",
                 "=",
-                "4"
+                "0.15"
               ]
             },
             {
@@ -5115,13 +5126,24 @@
             },
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PixieBomb",
+                "Animation",
+                "=",
+                "\"Super Bomb\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
                 "PixieBomb",
                 "Scale",
                 "=",
-                "6.5"
+                "0.3"
               ]
             },
             {
@@ -8380,7 +8402,7 @@
             "",
             "sound effect\\sound effect\\background music.mp3",
             "yes",
-            "",
+            "50",
             ""
           ]
         }

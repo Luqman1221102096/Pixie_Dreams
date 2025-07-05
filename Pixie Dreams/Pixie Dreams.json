@@ -963,6 +963,70 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Pixie_Bomb_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Pixie_Bomb_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Pixie_Bomb_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Pixie_Bomb_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Pixie_Bomb_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Pixie_Bomb_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Pixie_Bomb_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Pixie_Bomb_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Super_Bomb_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Super_Bomb_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Super_Bomb_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Super_Bomb_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/Super_Bomb_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\Super_Bomb_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Pixie_Assets/arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixie_Assets\\arrow.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3136,7 +3200,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Pixie Bomb",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3145,12 +3209,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "coinGold.png",
+                  "image": "Pixie_Assets\\Pixie_Bomb_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 35,
-                    "y": 35
+                    "x": 512,
+                    "y": 512
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3161,20 +3225,248 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 15
+                        "x": 156.5,
+                        "y": 121.5
                       },
                       {
-                        "x": 55,
-                        "y": 15
+                        "x": 837,
+                        "y": 126.5
                       },
                       {
-                        "x": 55,
-                        "y": 55
+                        "x": 827.5,
+                        "y": 801.5
                       },
                       {
-                        "x": 15,
-                        "y": 55
+                        "x": 159.5,
+                        "y": 801.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Pixie_Bomb_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156.5,
+                        "y": 121.5
+                      },
+                      {
+                        "x": 837,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 827.5,
+                        "y": 801.5
+                      },
+                      {
+                        "x": 159.5,
+                        "y": 801.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Pixie_Bomb_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156.5,
+                        "y": 121.5
+                      },
+                      {
+                        "x": 837,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 827.5,
+                        "y": 801.5
+                      },
+                      {
+                        "x": 159.5,
+                        "y": 801.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Pixie_Bomb_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156.5,
+                        "y": 121.5
+                      },
+                      {
+                        "x": 837,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 827.5,
+                        "y": 801.5
+                      },
+                      {
+                        "x": 159.5,
+                        "y": 801.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Super Bomb",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Super_Bomb_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156.5,
+                        "y": 121.5
+                      },
+                      {
+                        "x": 837,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 827.5,
+                        "y": 801.5
+                      },
+                      {
+                        "x": 159.5,
+                        "y": 801.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Super_Bomb_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156.5,
+                        "y": 121.5
+                      },
+                      {
+                        "x": 837,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 827.5,
+                        "y": 801.5
+                      },
+                      {
+                        "x": 159.5,
+                        "y": 801.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\Super_Bomb_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 512,
+                    "y": 512
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 156.5,
+                        "y": 121.5
+                      },
+                      {
+                        "x": 837,
+                        "y": 126.5
+                      },
+                      {
+                        "x": 827.5,
+                        "y": 801.5
+                      },
+                      {
+                        "x": 159.5,
+                        "y": 801.5
                       }
                     ]
                   ]

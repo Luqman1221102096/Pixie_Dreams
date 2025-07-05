@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22336005893812225,
+    "zoomFactor": 0.2636457673770899,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2231,6 +2231,66 @@
         "characterSize": 40,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Arrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pixie_Assets\\arrow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 66
+                      },
+                      {
+                        "x": 490,
+                        "y": 66
+                      },
+                      {
+                        "x": 490,
+                        "y": 450
+                      },
+                      {
+                        "x": 22,
+                        "y": 450
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2259,6 +2319,9 @@
       },
       {
         "objectName": "StoryText"
+      },
+      {
+        "objectName": "Arrow"
       }
     ]
   },
@@ -3211,6 +3274,17 @@
             "=",
             "Player.DashingEffect[1]"
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PixieBomb",
+            "Animation",
+            "=",
+            "\"Pixie Bomb\""
+          ]
         }
       ]
     },
@@ -3247,6 +3321,17 @@
             "CurrentDashingEffect",
             "=",
             "Player.DashingEffect[2]"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PixieBomb",
+            "Animation",
+            "=",
+            "\"Super Bomb\""
           ]
         }
       ]
@@ -3519,13 +3604,24 @@
             },
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PixieBomb",
+                "Animation",
+                "=",
+                "\"Pixie Bomb\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
                 "PixieBomb",
                 "Scale",
                 "=",
-                "4"
+                "0.15"
               ]
             },
             {
@@ -3611,13 +3707,24 @@
             },
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "PixieBomb",
+                "Animation",
+                "=",
+                "\"Super Bomb\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
                 "PixieBomb",
                 "Scale",
                 "=",
-                "6.5"
+                "0.3"
               ]
             },
             {
@@ -7251,7 +7358,7 @@
             "",
             "sound effect\\sound effect\\background music.mp3",
             "yes",
-            "",
+            "50",
             ""
           ]
         }
